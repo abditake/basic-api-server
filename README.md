@@ -24,8 +24,8 @@ Express Api Server
         ```
         {
           'name': '<search Query>'
-          'name': '<search Query>'
-          'name': '<search Query>'
+          'age': '<search Query>'
+          'eyeColor': '<search Query>'
         }
 
         ```
