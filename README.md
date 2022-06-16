@@ -1,7 +1,7 @@
 LAB - Express
 ========
 
-Express Api
+Express Api Server
 ---------------
 
 ### Author: Abdinasir Yussuf
@@ -24,6 +24,8 @@ Express Api
         ```
         {
           'name': '<search Query>'
+          'name': '<search Query>'
+          'name': '<search Query>'
         }
 
         ```
@@ -35,4 +37,5 @@ Express Api
 
 #### UML
 
-![diagrams](./assets/Untitled-Diagram.drawio.png)
+example for sequelize design 
+![sequelize](https://www.robinwieruch.de/static/b7e1ecfc9fb527a687939a0da39fa834/5e3e0/uml.webp)
