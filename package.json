@@ -10,6 +10,7 @@
     "test-watch": "NODE_ENV=test jest --watchAll --verbose --coverage",
     "db:config": "sequelize init:config",
     "db:create": "sequelize db:create"
+    
   },
   "repository": {
     "type": "git",

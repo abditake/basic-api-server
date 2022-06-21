@@ -3,13 +3,12 @@
 const express = require('express');
 const { foodModel } = require('../models');
 
+
 const router = express.Router();
 
 
 router.post('/food', async (req, res, next) => {
   let meal = req.body;
-  console.log(req.body);
-
   //query to the database
   let response = await foodModel.create(meal);
   res.status(200).send(response);

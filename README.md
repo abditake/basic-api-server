@@ -9,6 +9,13 @@ Express Api Server
 -   [tests report](https://github.com/codefellows/code-401-javascript-example-lab/actions)
 -   [front-end](https://code-401-js-lab-example.herokuapp.com/status)
 
+# Helpful Info
+
+- ### Routes
+    - /clothes
+    - /food
+- ###
+    - This Express server utilizes sqlite memory to create an in memory database. The server automatically seeds data for you with each restart but if you wanted to change seeded data Head over to the Root index file and Alter the data while following the Schema used in the corresponding Models folder. 
 ### Setup
 
 #### `.env` requirements
